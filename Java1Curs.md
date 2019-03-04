@@ -6,4 +6,6 @@ Structura de control
   * swich
   * if else
 * repetitiv
-Nume clasa nu incep cu cifra, spatiu, caractere speciale
+
+Nume clasa nu incep cu cifra, spatiu, caractere speciale   
+
