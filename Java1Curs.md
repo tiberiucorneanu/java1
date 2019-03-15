@@ -9,3 +9,14 @@ Structura de control
 
 Nume clasa nu incep cu cifra, spatiu, caractere speciale   
 
+super()
+hiding fields
+imutabilitate
+encapsulare
+
+Cerc isA Punct
+Cerc2d hasA Punct2d (cercul are ca atribut Punct) trebuie sa ii faci tu constructorul de la punct->cerc->cilindru
+
+Suprascriere @Overwrite
+
+abstract(clasele abstr pot avea constructori dar nu pot fi instantiate)
