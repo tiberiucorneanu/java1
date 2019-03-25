@@ -20,3 +20,14 @@ Cerc2d hasA Punct2d (cercul are ca atribut Punct) trebuie sa ii faci tu construc
 Suprascriere @Overwrite
 
 abstract(clasele abstr pot avea constructori dar nu pot fi instantiate)
+## Cursul_5
+polimorfism
+interface
+enum
+tipuri imbricate
+tipuri anonime
+
+## Cursul_6
+pachete
+singleton pattern
+lamda
