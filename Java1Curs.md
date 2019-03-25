@@ -28,7 +28,7 @@ tipuri imbricate
 tipuri anonime
 
 ## Cursul_6
-pachete
-singleton pattern
-lamdda
-annbnotari
+lambda
+annotation
+design patterns  ---> singleton pattern, factory, builder, decorator, kiss
+
