@@ -21,14 +21,14 @@ Suprascriere @Overwrite
 
 abstract(clasele abstr pot avea constructori dar nu pot fi instantiate)
 ## Cursul_5
-polimorfism
-interface
-enum
-tipuri imbricate
-tipuri anonime
+polimorfism   
+interface   
+enum  
+tipuri imbricate   
+tipuri anonime   
 
 ## Cursul_6
-lambda
-annotation
-design patterns  ---> singleton pattern, factory, builder, decorator, kiss
+lambda   
+annotation   
+design patterns  ---> singleton pattern, factory, builder, decorator, kiss    
 
