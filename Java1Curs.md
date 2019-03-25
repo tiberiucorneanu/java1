@@ -30,4 +30,5 @@ tipuri anonime
 ## Cursul_6
 pachete
 singleton pattern
-lamda
+lamdda
+annbnotari
