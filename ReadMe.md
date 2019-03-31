@@ -1,3 +1,6 @@
+# Map
+Java Development Mind Map in [2018](https://coggle.it/diagram/WqgTTNMJtPiHph_q/t/java-development-in-2018)
+
 <h2>YouTube Channels / Video Material</h2>
 <p>
   <a href="https://www.youtube.com/watch?v=f18OTVaHrvE&index=11&list=PLXqaWKDQpdPn4UJ2fOFxl6Yl_DC51FFUL"> MIT Introduction to Java</a><br>
