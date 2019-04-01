@@ -30,5 +30,22 @@ tipuri anonime
 ## Cursul_6
 lambda   
 annotation   
-design patterns  ---> singleton pattern, factory, builder, decorator, kiss    
+design patterns  ---> singleton pattern, factory, builder, decorator, kiss   
+
+## Cursul_7
+### erori
+ * clasa Throwable  
+    * mostenit de Error  
+    * mostenit de Exception (s.n. checked)  
+     * mostentit de RuntimeException (s.n. unchecked / runtime)  
+### exceptii  
+ * de sistem
+   * FileNotFoundException
+   * NullPointerException
+   * ArrayOutOfBoundException array v[6] desi ele sunt 5
+   * IOException
+ * de aplicatii(business)  
+   * la bancomat cand nu ai bani
+   * campuri de new user necompletate 
+
 
