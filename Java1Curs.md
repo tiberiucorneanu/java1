@@ -37,7 +37,7 @@ design patterns  ---> singleton pattern, factory, builder, decorator, kiss
  * clasa Throwable  
     * mostenit de Error  
     * mostenit de Exception (s.n. checked)  
-     * mostentit de RuntimeException (s.n. unchecked / runtime)  
+     ** mostentit de RuntimeException (s.n. unchecked / runtime)  
 ### exceptii  
  * de sistem
    * FileNotFoundException
