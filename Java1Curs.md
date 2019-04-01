@@ -48,4 +48,4 @@ design patterns  ---> singleton pattern, factory, builder, decorator, kiss
    * la bancomat cand nu ai bani
    * campuri de new user necompletate 
 
-final(int x, obj, metoda, clasa) finally(try si AutoCloseable) finalize(garbage collector)
+!!!  final(int x, obj, metoda, clasa) finally(try si AutoCloseable) finalize(garbage collector)
