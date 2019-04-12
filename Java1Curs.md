@@ -64,6 +64,12 @@ Clasele rapper
 Integer i = Integer.parseInt("123");  
 
 Tipurile generice   public class Cutie<T>   numai de tip Object, accepta array
+ 
+Collection<E>
+List<E>
+ * ArrayList<E>
+ * LinkedList<E>
+ * Vectior<E>
 ```
 public class Exemplul1{
     public static void main(String []args){
