@@ -65,7 +65,9 @@ Integer i = Integer.parseInt("123");
 
 Tipurile generice   public class Cutie<T>   numai de tip Object, accepta array
 ```
-Cutie c1 = new Cutie(); //backwards compatibility
+public class Exemplul1{
+    public static void main(String []args){
+        Cutie c1 = new Cutie(); //backwards compatibility
         
         Carte cr1 = new Carte("Morometii", 300);
         Creion cre1 = new Creion("rosu", 5);
@@ -92,6 +94,8 @@ Cutie c1 = new Cutie(); //backwards compatibility
         c9 = new Cutie<Number>();
         c9 = new Cutie<Object>();
         //c9 = new Cutie<Creion>();
+    }
+}
 ```
 ```
 public class Cutie<T>{
@@ -126,7 +130,8 @@ public class Carte{
     }
 }
 
-
+```
+```
 public class Creion{
     String culoare;
     int pret;
