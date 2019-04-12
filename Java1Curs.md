@@ -63,5 +63,84 @@ Clasele rapper
 
 Integer i = Integer.parseInt("123");  
 
-<b>Tipurile generice</b>   public class Cutie<T>   numai de tip Object
+Tipurile generice   public class Cutie<T>   numai de tip Object, accepta array
+```
+Cutie c1 = new Cutie(); //backwards compatibility
+        
+        Carte cr1 = new Carte("Morometii", 300);
+        Creion cre1 = new Creion("rosu", 5);
+        
+        Cutie<Carte> c2;
+        c2 = new Cutie<Carte>();
+        Cutie<Creion> c3 = new Cutie<Creion>(5, new Creion("albastru", 10));
+        Cutie<Integer> c4 = new Cutie<>();
+        System.out.println(c3.continut);
+        
+        Cutie<int[]> c6 = new Cutie<>();
+        
+        Cutie<?> c7; //polimorfism ?= Object
+        c7 = new Cutie<Carte>();
+        c7 = new Cutie<Creion>();
+        c7 = new Cutie<Integer>();
+        
+        Cutie<? extends Number> c8;
+        c8 = new Cutie<Double>();
+        c8 = new Cutie<Integer>();
+        //c8 = new Cutie<String>(); 
+        
+        Cutie<? super Integer> c9;
+        c9 = new Cutie<Number>();
+        c9 = new Cutie<Object>();
+        //c9 = new Cutie<Creion>();
+```
+```
+public class Cutie<T>{
+    double volum;
+    T continut;
+    
+    Cutie(){}
+    
+    Cutie(double volum, T continut){
+        this.volum=volum;
+        this.continut = continut;
+    }
+    
+    public T getContinut(){
+        return this.continut;
+    }
+}
+```
+```
+public class Carte{
+    String titlu;
+    int nrPag;
+    
+    Carte(String titlu, int nrPag){
+        this.titlu = titlu;
+        this.nrPag = nrPag;
+    }
+    
+    @Override
+    public String toString(){
+        return "Carte" + this.titlu + " " + this.nrPag; 
+    }
+}
+
+
+public class Creion{
+    String culoare;
+    int pret;
+    
+    Creion(String culoare, int pret){
+        this.culoare = culoare;
+        this.pret = pret;
+    }
+    
+    @Override
+    public String toString(){
+        return "Creion"+ culoare+" "+pret;
+    }
+}
+```
+
 
