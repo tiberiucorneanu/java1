@@ -49,3 +49,19 @@ design patterns  ---> singleton pattern, factory, builder, decorator, kiss
    * campuri de new user necompletate 
 
 !!!  final(int x, obj, metoda, clasa) finally(try si AutoCloseable) finalize(garbage collector)
+
+## Cursul_8
+Clasele rapper
+* Byte
+* Short
+* Integer
+* Long
+* Double
+* Floate
+* Character
+* Boolean  
+
+Integer i = Integer.parseInt("123");  
+
+<b>Tipurile generice</b>   public class Cutie<T>   numai de tip Object
+
